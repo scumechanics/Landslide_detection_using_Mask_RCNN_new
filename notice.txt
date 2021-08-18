@@ -1,0 +1,2 @@
+1. mrcnn  !git clone https://github.com/Cpruce/Mask_RCNN
+2. 将model.py中的self.keras_model.metrics_tensors.append(loss) 更改为：self.keras_model.add_metric(loss, name)
